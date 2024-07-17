@@ -1,0 +1,306 @@
+@keyframes PricingConfigurator_rotating__Rwn3B {
+    0% {
+        transform: rotate(0deg)
+    }
+
+    to {
+        transform: rotate(1turn)
+    }
+}
+
+.PricingConfigurator_trimPageInputs__s2WvV {
+    margin-top: 1rem
+}
+
+.PricingConfigurator_table__byTBL {
+    border: 1px solid #000083;
+    background-color: #e9edf6;
+    border-radius: .125rem;
+    padding: 1.5rem;
+    margin-bottom: 3rem;
+    position: relative;
+    line-height: 24px
+}
+
+.PricingConfigurator_table__byTBL:after {
+    content: "";
+    height: 100%;
+    width: .5rem;
+    background-color: #94d232;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-top-left-radius: .125rem;
+    border-bottom-left-radius: .125rem;
+    z-index: 1
+}
+
+.PricingConfigurator_table__byTBL:before {
+    content: "";
+    position: absolute;
+    width: 1rem;
+    height: 1rem;
+    background-color: #fff;
+    transform: rotate(45deg);
+    top: -.6rem;
+    left: calc(50% - .5rem);
+    border-radius: 0;
+    border-color: #fff #000083 #000083 #fff;
+    border-style: solid;
+    border-width: 1px
+}
+
+.PricingConfigurator_table__byTBL .PricingConfigurator_requirements__pxpT3,.PricingConfigurator_table__byTBL .PricingConfigurator_selection__ysFNn {
+    display: grid;
+    grid-gap: 8px;
+    gap: 8px
+}
+
+.PricingConfigurator_table__byTBL .PricingConfigurator_header__0TM9W,.PricingConfigurator_table__byTBL .PricingConfigurator_requirements__pxpT3,.PricingConfigurator_table__byTBL .PricingConfigurator_selection__ysFNn {
+    padding: 0 .5rem
+}
+
+.PricingConfigurator_table__byTBL .PricingConfigurator_selection__ysFNn {
+    grid-template: repeat(6,auto)/120px 1fr
+}
+
+.PricingConfigurator_table__byTBL .PricingConfigurator_requirements__pxpT3 {
+    grid-template: repeat(3,auto)/140px 1fr;
+    margin-bottom: 1rem
+}
+
+.PricingConfigurator_table__byTBL .PricingConfigurator_label__3h1Fw {
+    font-weight: 300;
+    color: rgba(10,16,26,.6)
+}
+
+.PricingConfigurator_table__byTBL .PricingConfigurator_label__3h1Fw span {
+    display: block;
+    line-height: normal;
+    font-size: 14px
+}
+
+.PricingConfigurator_table__byTBL .PricingConfigurator_value__JV60x {
+    display: flex
+}
+
+@media(max-width: 480px) {
+    .PricingConfigurator_table__byTBL .PricingConfigurator_value__JV60x {
+        align-items:center
+    }
+}
+
+.PricingConfigurator_table__byTBL .PricingConfigurator_header__0TM9W {
+    margin-top: .5rem;
+    margin-bottom: 1rem;
+    font-size: 1.25rem
+}
+
+.PricingConfigurator_monthCountError__fR1vE {
+    align-items: center;
+    display: flex;
+    font-size: .75rem;
+    margin-top: 14px
+}
+
+@media(max-width: 480px) {
+    .PricingConfigurator_monthCountError__fR1vE {
+        margin-top:0
+    }
+}
+
+.PricingConfigurator_monthCountError__fR1vE i {
+    color: #bd0b23;
+    font-size: 1.5rem;
+    margin-right: .5rem
+}
+
+.PricingConfigurator_monthCountError__fR1vE p {
+    margin: 0
+}
+
+.PricingConfigurator_distributionInfoBox____TbQ {
+    align-items: center;
+    display: flex;
+    margin: .75rem 0
+}
+
+.PricingConfigurator_distributionInfoBox____TbQ i {
+    color: #008f62;
+    font-size: 1.5rem
+}
+
+.PricingConfigurator_distributionInfoBox____TbQ span {
+    color: #0a101a;
+    margin: 0 .5rem
+}
+
+.PricingConfigurator_disabled__VXSI0 {
+    opacity: .4;
+    pointer-events: none
+}
+
+.PricingConfigurator_price__GWX4d {
+    position: relative;
+    background-color: #94d232;
+    border-radius: .125rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .75rem 1rem
+}
+
+.PricingConfigurator_price__GWX4d h2 {
+    margin: 0;
+    font-weight: 500;
+    color: #000083
+}
+
+.PricingConfigurator_price__GWX4d:before {
+    content: "";
+    position: absolute;
+    width: 1rem;
+    height: 1rem;
+    background-color: #fff;
+    transform: rotate(45deg);
+    top: -.5rem;
+    left: calc(50% - .5rem)
+}
+
+.PricingConfigurator_priceIcon__PEb57 {
+    height: 1.125rem;
+    animation: PricingConfigurator_progressAnimation__GEL1W 1.2s linear infinite
+}
+
+.PricingConfigurator_templates__HH2hY {
+    margin-top: .5rem;
+    padding: 0 .5rem
+}
+
+.PricingConfigurator_templatesContainer__d_Ncs {
+    margin-top: 2.5rem
+}
+
+.PricingConfigurator_templatesLabel__Ojt4L {
+    padding-bottom: .5rem
+}
+
+.PricingConfigurator_templatesFirstButton__dHa_D {
+    margin-bottom: 1.5rem
+}
+
+.PricingConfigurator_templatesSecondButton__p7Jf_ {
+    margin-bottom: .5rem
+}
+
+@media(max-width: 600px) {
+    .PricingConfigurator_templatesSecondButton__p7Jf_ {
+        margin-bottom:0
+    }
+}
+
+.PricingConfigurator_unbreakable__YjMbW {
+    word-break: keep-all;
+    min-width: -moz-max-content;
+    min-width: max-content
+}
+
+@keyframes PricingShipping_rotating__o_zhi {
+    0% {
+        transform: rotate(0deg)
+    }
+
+    to {
+        transform: rotate(1turn)
+    }
+}
+
+.PricingShipping_shippingOptions__jLSaa>* {
+    margin: 1rem 0
+}
+
+.PricingShipping_shippingOptions__jLSaa>:first-of-type {
+    margin-top: 0
+}
+
+.PricingShipping_shippingOptions__jLSaa>:last-of-type {
+    margin-bottom: 0
+}
+
+.PricingShipping_option__2ytOw {
+    height: 100%;
+    width: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    color: #0a101a
+}
+
+@keyframes totalPrices_rotating__aVYtx {
+    0% {
+        transform: rotate(0deg)
+    }
+
+    to {
+        transform: rotate(1turn)
+    }
+}
+
+.totalPrices_total__Ih6Av {
+    display: grid;
+    grid-template-columns: 1fr 155px;
+    grid-gap: 0;
+    border: 1px solid #d1d6e0;
+    border-radius: .125rem
+}
+
+.totalPrices_total__Ih6Av .totalPrices_label__gD7Fa,.totalPrices_total__Ih6Av .totalPrices_value__yTypa {
+    height: 4rem;
+    border-top: 1px solid #d1d6e0;
+    font-weight: 300;
+    color: #0a101a;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-right: 1rem
+}
+
+.totalPrices_total__Ih6Av .totalPrices_label__gD7Fa:first-of-type,.totalPrices_total__Ih6Av .totalPrices_label__gD7Fa:nth-of-type(2),.totalPrices_total__Ih6Av .totalPrices_value__yTypa:first-of-type,.totalPrices_total__Ih6Av .totalPrices_value__yTypa:nth-of-type(2) {
+    border-top: none
+}
+
+.totalPrices_total__Ih6Av .totalPrices_label__gD7Fa:last-of-type,.totalPrices_total__Ih6Av .totalPrices_value__yTypa:last-of-type {
+    background-color: #94d232
+}
+
+.totalPrices_total__Ih6Av .totalPrices_label__gD7Fa {
+    justify-content: flex-start;
+    padding-left: 1rem
+}
+
+.totalPrices_total__Ih6Av .totalPrices_value__yTypa {
+    position: relative;
+    background-color: #e9edf6;
+    justify-content: flex-end;
+    padding-right: 1rem;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 5px
+}
+
+.totalPrices_total__Ih6Av .totalPrices_value__yTypa span {
+    font-size: .75rem;
+    font-family: interface,sans-serif;
+    font-weight: 300;
+    color: rgba(10,16,26,.7)
+}
+
+.totalPrices_total__Ih6Av .totalPrices_totalRow__LlPvF {
+    font-weight: 600
+}
+
+/*# sourceMappingURL=8bcd24afebbacd4a.css.map*/
